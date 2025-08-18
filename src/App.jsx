@@ -10,8 +10,8 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="https://danielelbaz.github.io/Tweeter-Project-2.0/" element={<Home />} />
-        <Route path="https://danielelbaz.github.io/Tweeter-Project-2.0/profile" element={<Profile />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

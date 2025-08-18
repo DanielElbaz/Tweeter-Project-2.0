@@ -9,8 +9,8 @@ export default function Navbar() {
       <div className="nav-inner container">
         <div className="brand">🦅 Tweeter 2.0 🇮🇱 </div>
         <div className="links">
-          <NavLink to="https://danielelbaz.github.io/Tweeter-Project-2.0/" className="nav-link">Home</NavLink>
-          <NavLink to="https://danielelbaz.github.io/Tweeter-Project-2.0/profile" className="nav-link">Profile</NavLink>
+          <NavLink to="/" className="nav-link">Home</NavLink>
+          <NavLink to="/profile" className="nav-link">Profile</NavLink>
         </div>
         <div className="nav-user">@{userName}</div>
       </div>
