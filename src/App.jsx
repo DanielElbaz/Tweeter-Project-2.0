@@ -10,8 +10,8 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/Tweeter-Project-2.0/" element={<Home />} />
+        <Route path="/Tweeter-Project-2.0/profile" element={<Profile />} />
       </Routes>
     </>
   );
